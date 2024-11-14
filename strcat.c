@@ -5,7 +5,7 @@ int main() {
   int l,i,j;
  gets(s1);
  gets(s2);
- 
+ //strlen(s1,s2)
 for (i=strlen(s1),j=0;s2[j]!='\0';i++,j++){
      s1[i]=s2[j];
 }
